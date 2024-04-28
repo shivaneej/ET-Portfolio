@@ -266,9 +266,16 @@ textarea {
 
   .project-details__two-column {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 40% 60%;
     grid-gap: 10rem;
-    margin-bottom: 3em;
+    margin-bottom:
+     3em;
+  }
+  .project-details__one-column {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 1rem;
+    margin-bottom: 3em!important;
   }
 
   div.project-details__align-flex {
