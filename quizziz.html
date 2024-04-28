@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Quizziz</title>
-    <meta name="description" content="Case study page of Project" />
+    <meta name="description" content="Projects from CS 6460 Educational Technology" />
 
     <link rel="stylesheet" href="css/style.css" />
 
@@ -76,8 +76,10 @@
         </div>
       </div>
     </header>
-    <section class="project-cs-hero">
-      <div class="project-cs-hero__content">
+
+
+    <section class="project-cs-hero"> <!-- container -->
+      <div class="project-cs-hero__content"> <!-- content -->
         <h1 class="heading-primary">Quizziz</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
@@ -89,36 +91,143 @@
         </div> -->
       </div>
     </section>
+
+
     <section class="project-details">
       <div class="main-container">
         <div class="project-details__content">
-          <div class="project-details__showcase-img-cont">
+          <!-- <div class="project-details__showcase-img-cont">
             <img
               src="./assets/png/quizziz.png"
               alt="Project Image"
               class="project-details__showcase-img"
             />
-          </div>
+          </div> -->
           <div class="project-details__content-main">
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Project Overview</h3>
               <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Neque alias tenetur minus quaerat
-                aliquid, aut provident blanditiis, deleniti aspernatur ipsam
-                eaque veniam voluptatem corporis vitae mollitia laborum corrupti
-                ullam rem?
+                <a href="https://quizizz.com/?lng=en" class="link">Quizizz</a> is a learning platform that offers multiple tools to make a classroom fun, engaging, and interactive! Teachers can create gamified Quizzes and Lessons, conduct formative assessments, host live activities or assign them as homework, tap into detailed performance reports, and so much more! 
+                This section of the portfolio showcases the improvements that our team made to the Quizziz desktop app to assess <strong>prior knowledge.</strong>
               </p>
+
+              <h3 class="project-details__content-title">The Problem</h3>
+                <ul class="project-details__desc-para">
+                  <li class="negative">No feature to assess students' prior knowledge </li>
+                  <li class="negative">No open-ended questions </li>
+                  <li class="negative">No way to assess the difficulty of the quiz </li>
+                  <li class="negative">No feedback and explanation for incorrect answers </li>
+                  <li class="negative">No way to differentiate between guessing and actually knowing</li>
+                </ul>
+
+              <h3 class="project-details__content-title">Prior Knowledge</h3>
               <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem?
+                Prior knowledge refers to the information, understanding, and skills a learner already has before encountering new content or experiences. It forms the basis for acquiring new knowledge and plays a crucial role in how individuals learn and integrate new information. Skilled educators assess and utilize their students' existing knowledge to enhance learning, adapting their teaching methods to fill gaps and build on what students already know. Recognizing and incorporating existing knowledge can promote deeper learning and improve retention of new concepts, which is a key focus of our work on Quizziz.
               </p>
             </div>
+
+
+            <div class="project-details__process">
+              <h3 class="project-details__content-title">The Design Process</h3>
+              <div class="project-details__two-column">
+                <div class="project-details__left-column">
+                  <h4 class="project-details__content-subtitle">Affinity Diagram</h4>
+                  <p class="project-details__desc-para">
+                    User testing on the Quizizz app identified key areas for enhancement, leading to feature proposals like Adaptive Difficulty and Misconception Identification to customize and improve the learning process. This portfolio focuses on the features highlighted in bold letters.
+                  </p>
+                  <ul class="project-details__desc-para">
+                    <li class="default"><strong>Pre-Quiz Survey</strong></li>
+                    <li class="default">Concept Linking</li>
+                    <li class="default"><strong>Elaboration Prompts</strong></li>
+                    <li class="default">Collaborative Challenges </li>
+                    <li class="default">Knowledge Mixture Quizzes</li>
+                    <li class="default"><strong>Misconception Identification</strong></li>
+                    <li class="default"><strong>Confidence Assessment</strong></li>
+                    <li class="default"><strong>Adaptive Difficulty</strong></li>
+                  </ul>
+                </div>
+                <div class="project-details__right-column project-details__align-flex">
+                  <img src="./assets/png/AffinityDiagram.webp" class="project-details__diagram">
+                </div>
+              </div>
+
+              <div class="project-details__two-column">
+                <div class="project-details__left-column">
+                  <h4 class="project-details__content-subtitle">Storyboarding</h4>
+                  <p class="project-details__desc-para">
+                    Storyboarding plays a crucial and pivotal role in the development of features within our projects. We dedicated significant time and effort to meticulously craft detailed storyboards that serve as the blueprint for all our innovative features.
+                    Every single storyboard delved deep into the intricacies of user interaction with each app feature, where every feature was personified by a distinct persona. 
+                    In the subsequent phases, our focus shifted towards evaluating the actual implementation and execution of these meticulously planned and crafted features.
+                  </p>
+                </div>
+                <div class="project-details__right-column project-details__align-flex">
+                  <img src="./assets/png/storyboards.png" class="project-details__diagram">
+                </div>
+              </div>
+            </div>
+
+
+            <div class="project-details__process">
+              <h3 class="project-details__content-title">Features</h3>
+              <div class="project-details__two-column">
+                <div class="project-details__left-column">
+                  <h4 class="project-details__content-subtitle">Pre Quiz Surveys</h4>
+                  <p class="project-details__desc-para">
+                    Don't assume that the students will use their prior knowledge before taking a Quiz! Present a survey to trigger recall before every quiz.
+                  </p>
+                </div>
+                <div class="project-details__right-column project-details__align-flex">
+                  <img src="./assets/png/prequiz.png" class="project-details__diagram">
+                </div>
+              </div>
+              <div class="project-details__two-column">
+                <div class="project-details__left-column">
+                  <h4 class="project-details__content-subtitle">Confidence Assessment</h4>
+                  <p class="project-details__desc-para">
+                    Knowing and Understanding are not the same. Use slider with discrete steps instead of slider with continuous values to minimize thinking efforts.
+                  </p>
+                </div>
+                <div class="project-details__right-column project-details__align-flex">
+                  <img src="./assets/png/AffinityDiagram.webp" class="project-details__diagram">
+                </div>
+              </div>
+              <div class="project-details__two-column">
+                <div class="project-details__left-column">
+                  <h4 class="project-details__content-subtitle">Elaborative Prompts</h4>
+                  <p class="project-details__desc-para">
+                    The inclusion of open-ended questions will trigger the students to actively engage in the thinking process and apply their prior knowledge to the specific context.
+                  </p>
+                </div>
+                <div class="project-details__right-column project-details__align-flex">
+                  <img src="./assets/png/AffinityDiagram.webp" class="project-details__diagram">
+                </div>
+              </div>
+              <div class="project-details__two-column">
+                <div class="project-details__left-column">
+                  <h4 class="project-details__content-subtitle">Misconception Identification</h4>
+                  <p class="project-details__desc-para">
+                    Incorporating open-ended questions can motivate students to actively participate in critical thinking and utilize their existing knowledge within a given scenario.
+                  </p>
+                </div>
+                <div class="project-details__right-column project-details__align-flex">
+                  <img src="./assets/png/AffinityDiagram.webp" class="project-details__diagram">
+                </div>
+              </div>
+              <div class="project-details__two-column">
+                <div class="project-details__left-column">
+                  <h4 class="project-details__content-subtitle">Adaptive Difficulty</h4>
+                  <p class="project-details__desc-para">
+                    Student performance is enhanced when prior knowledge is activated, so easier questions cover foundational material and prompt connections to harder questions. Students should be presented with learning at the right levels. If the student struggles on easy questions, the quiz ends early and suggests easier quizzes.
+                  </p>
+                </div>
+                <div class="project-details__right-column project-details__align-flex">
+                  <img src="./assets/png/AffinityDiagram.webp" class="project-details__diagram">
+                </div>
+              </div>
+
+            </div>
+            
+
             <div class="project-details__tools-used">
               <h3 class="project-details__content-title">Tools Used</h3>
               <div class="skills">
@@ -134,6 +243,14 @@
                   </div>
                   <div>Canva</div>
                 </div>
+              </div>
+            </div>
+
+
+            <div class="project-details__project-meta">
+              <h3 class="project-details__content-title">Team Members</h3>
+              <div class="project-details__team-members project-details__desc-para">
+                Shivanee Jaiswal, Courtney Tiang, Shivjeet Bhosale, Gadaadhar Chennupati, Yuqing Huang
               </div>
             </div>
             <!-- <div class="project-details__links">
