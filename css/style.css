@@ -452,9 +452,14 @@ a.link:hover {
   color: #2a0845;
 }
 
-.project-cs-hero {
+.project-cs-hero.quizziz {
   /* background: linear-gradient(to right, #50C9C3 0%, #96DEDA  51%, #50C9C3  100%); */
   background-image: url('../assets/png/quizziz-header.png');
+}
+
+.project-cs-hero.callicraft {
+  /* background: linear-gradient(to right, #50C9C3 0%, #96DEDA  51%, #50C9C3  100%); */
+  background-image: url('../assets/png/callicraft-header.png');
 }
        
 .project-cs-hero {
